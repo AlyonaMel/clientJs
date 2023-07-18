@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+  .app {
+    max-width: 1024px;
+  }
+
+  .clients__container {
+    width: 96%;
+  }
+
+  .clients__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .display-info__item--id {
+    background-position: 57% 62%;
+  }
+
+  .display-info__item--name {
+    background-position: 57% 66%;
+  }
+
+  .clients__created,
+  .clients__changed {
+    flex-direction: column;
+  }
+
+  .create__span,
+  .change__span {
+    right: 13px;
+    bottom: -5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .app {
+    max-width: 768px;
+  }
+
+  .clients__container {
+    width: 95%;
+  }
+
+  .clients__table {
+    width: 728px;
+  }
+
+  .display-info__item--id {
+    background-position: 75% 65%;
+  }
+
+  .display-info__item--name {
+    background-position: 78% 66%;
+  }
+
+  .create__span {
+    right: 10px;
+  }
+
+  .change__span {
+    right: 4px;
+  }
+
+  .display-info__item--contacts {
+    padding-right: 5%;
+  }
+
+  .display-info__item--actions {
+    padding-right: 4%;
+  }
+
+  .clients__actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .clients__edit {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-modal__content {
+    width: 350px;
+    padding: 24px 15px;
+  }
+
+  .modal__form {
+    width: 320px;
+  }
+
+  .modal__contact {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .contact {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .contact__name {
+    width: 110px;
+  }
+}
+
+@media (max-width: 345px) {
+  .site-modal__content {
+    width: 300px;
+    padding: 24px 15px;
+  }
+
+  .modal__form {
+    max-width: 270px;
+  }
+
+}
